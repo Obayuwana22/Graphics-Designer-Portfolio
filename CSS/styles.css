@@ -449,7 +449,7 @@ header {
   color: var(--dark-white-clr);
   min-width: 300px;
   max-height: 50em;
-  padding: 10px 10px 20px;
+  padding: 10px 10px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -472,28 +472,30 @@ header {
   margin-block: 10px;
 }
 
+.testimonials-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .testimonials-bio {
   font-size: 1.7rem;
-  font-weight: bold;
+  font-weight: bold; /* Come back to make the text same position no matter  the content */
 }
 
 /* Tablet */
 
 @media screen and (min-width: 768px) {
-  /* .testimonials-container {
-    flex-basis: 10%;
-  } */
   .testimonials-content {
     width: 30em;
     margin: 0 auto;
   }
 
-  .change {
+  /* .change {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-inline: 100px;
-  }
+  } */
 }
 
 /* Desktop */
