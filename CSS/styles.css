@@ -104,7 +104,7 @@ h2 {
 /* Hero section mobile */
 
 .hero-content {
-  margin: 40px 38px 100px;
+  margin: 40px 38px 120px;
   text-align: center;
 }
 
@@ -160,6 +160,9 @@ h2 {
 
 /* Media query for tablets */
 @media screen and (min-width: 768px) {
+  .hero-content {
+    margin-bottom: 100px;
+  }
   .nav {
     padding: 0;
     font-size: 2rem;
